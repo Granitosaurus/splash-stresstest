@@ -1,0 +1,50 @@
+$ python3.6 attack.py --concurrent_limit 30 clean_domains.csv 100 --log-rate 10
+reading domains from clean_domains.csv
+randomizing domains
+limiting to 100 domains from total of 6507463
+scheduling 100 domains
+got 10 results at 60.0/min
+got 20 results at 109.1/min
+got 30 results at 120.0/min
+got 40 results at 141.2/min
+got 50 results at 166.7/min
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: [Errno 104] Connection reset by peer
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: None
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+Failed: Cannot connect to host 127.0.0.1:8050 ssl:False [Connect call failed ('127.0.0.1', 8050)]
+total: 100, good/bad/failed: 54:8:38
+[1]+  Segmentation fault      nohup splash --js-cross-domain-access --disable-private-mode --disable-lua-sandbox -v 4
